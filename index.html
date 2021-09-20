@@ -5,16 +5,42 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="CSS/index.css">
+  <link rel="stylesheet" href="CSS/reset.css">
   <title>Cartão de Visitas</title>
 </head>
 <body>
   <main>
-    <h1>Cartão de Visitas</h1>
+    <h1 class="titulo-main">Cartão de Visitas</h1>
   </main>
 
   <section>
     <div id="container">
-      
+      <div class="corpo-input">
+        <p>
+          Nome:
+          <input type="text" name="nome" id="nome">
+        </p>
+
+        <p>
+          Idade:
+          <input type="number" name="idade" id="idade" min="1" max="999">
+        </p>
+
+        <p>
+          Foto:
+          <input type="file" name="foto" id="foto">
+        </p>
+
+        <p>
+          Telefone:
+          <input type="tel" name="telefone" id="telefone">
+        </p>
+
+        <p>
+          Email:
+          <input type="email" name="email" id="email">
+        </p>
+      </div>
     </div>
   </section>
 
