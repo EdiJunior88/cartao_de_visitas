@@ -1,0 +1,39 @@
+.titulo-main {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 2rem;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.corpo-input {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.corpo-input p {
+  margin: 5px 0;
+}
+
+/* Personalizando o input FILE */
+
+input[type="file"] {
+  display: none;
+}
+
+.label-foto {
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: royalblue;
+  cursor: pointer;
+}
