@@ -12,16 +12,20 @@
   margin-right: 10px;
   width: 100%;
   height: 100%;
+  margin-top: 30px;
 }
 
 .corpo-input {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  box-sizing: border-box;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .corpo-input p {
-  margin: 5px 0;
+  margin: 7px 0;
 }
 
 /* Personalizando o input FILE */
@@ -31,9 +35,27 @@ input[type="file"] {
 }
 
 .label-foto {
-  padding: 5px;
+  padding: 7px 7%;
   text-align: center;
   border-radius: 5px;
   background-color: royalblue;
   cursor: pointer;
+}
+
+.svg-foto {
+  padding-right: 0.3rem;
+}
+
+/* Tamanho responsivo inputs */
+
+input#nome {
+  width: auto;
+}
+
+input#idade {
+  width: 16%;
+}
+
+input#telefone {
+  width: 50%;
 }
