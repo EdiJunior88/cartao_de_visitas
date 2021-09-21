@@ -42,6 +42,10 @@ input[type="file"] {
   cursor: pointer;
 }
 
+.corpo-input > p:nth-child(3) {
+  margin: 14px 0;
+}
+
 .svg-foto {
   padding-right: 0.3rem;
 }
